@@ -1,0 +1,153 @@
+.room-comm {
+    height: 90vh;
+    float: left;
+    color: #ffffff;
+    overflow: hidden;
+}
+#files {
+    overflow: hidden;
+    margin: 0px 0px 0px 0px !important;
+    height: 90vh;
+    background-color: #29648a;
+    border-radius: 10px;
+    border: 3px solid #aaabb8 ;
+}
+#chat-pane {
+    border: 3px solid #aaabb8 ;
+    background-color: #29648a;
+    height: 90vh;
+    border-radius: 10px;
+}
+.card {
+    height: auto;
+}
+#drop-zone {
+    /*Sort of important*/
+    width: 300px;
+    /*Sort of important*/
+    height: 200px;
+    left:50%;
+    background-color: #ffffff;
+    top:100px;
+    margin-left:-150px;
+    border: 2px dashed rgba(0,0,0,.3);
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Roboto";
+    text-align: center;
+    position: relative;
+    line-height: 180px;
+    font-size: 20px;
+    color: rgba(0,0,0,.3);
+}
+
+.local-video{
+    z-index: 1;
+}
+    
+
+    /*Important*/
+    #drop-zone.mouse-over {
+        border: 2px dashed rgba(0,0,0,.5);
+        color: rgba(0,0,0,.5);
+        background-color: #aaabb8;
+    }
+/*If you dont want the button*/
+#clickHere {
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: 20px;
+    line-height: 26px;
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #3b85c3;
+
+}
+
+    #clickHere:hover {
+        background-color: #4499DD;
+        color: black;
+
+    }
+#chat-input {
+    position: relative;
+}
+
+#participants{
+    padding-left: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#videos{
+    position: relative;
+    margin-top: 10px;
+    padding: 0;
+}
+.pat{
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #25274d;
+    font-size: 30px;
+    align-items: center;
+    vertical-align: text-top;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    top: 400px;
+    left: 20px;
+    padding: 18px;
+    width: 300px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #25274d;
+    color: #ffffff;
+  }
+  .tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: #aaabb8;
+
+  }
+  .tooltip {
+    background-color: #aaabb8;
+    border: 0px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+      background-color: #aaabb8;
+    opacity: 1;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .encrypt-message {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: none;
+    overflow: hidden;
+    border: 0em;
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  
